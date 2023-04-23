@@ -3,13 +3,13 @@ body {
     margin: 3em;
 }
 
-.a, .c, .d {
+.a, .c, .d, .e, .f, .g, .h {
     background-color: black;
     margin: 1em;
     
 }
 
-.a, .a1, .b1, .c, .d, .d1 {
+.a, .a1, .b1, .c, .d, .d1, .e, .f, .g, .h {
     width: 16em;
     height: 16em;
 }
@@ -58,7 +58,38 @@ body {
     height: 12em;
 }
 
+.e1 {
+    background: url(../img/dh.jpg);
+    border: 3px solid black;
+    height: 16em;
+    width: 16em;
+}
+
 .first, .second, .third {
     display: flex;
     justify-content: space-between;
+}
+
+.f1 {
+    border: 3px solid black;
+    margin: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.f2 {
+    background: url(../img/dh.jpg);
+    background-size: 195px;
+    width: 12em;
+    height: 12em;
+    padding: 0;
+    margin: 0;
+}
+
+.g1 {
+    background-color: white;
+    width: 16em;
+    height: 16em;
+    border: 3px solid black;
 }
