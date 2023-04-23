@@ -56,3 +56,8 @@ body {
     width: 15em;
     height: 15em;
 }
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
