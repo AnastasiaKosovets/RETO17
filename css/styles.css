@@ -14,5 +14,5 @@ body {
     background: url(../img/back_mantel.jpg);
     width: 20em;
     height: 20em;
-    margin: 5px;
+    border: 3px solid black;
 }
