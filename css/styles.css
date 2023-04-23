@@ -1,5 +1,6 @@
 body {
     background: url(../img/ac.jpg);
+    margin: 3em;
 }
 
 .a, .c, .d {
@@ -9,8 +10,8 @@ body {
 }
 
 .a, .a1, .b1, .c, .d, .d1 {
-    width: 20em;
-    height: 20em;
+    width: 16em;
+    height: 16em;
 }
 
 .a1 {
@@ -28,18 +29,18 @@ body {
 
 .b2 {
     background: url(../img/back_mantel.jpg);
-    width: 15em;
-    height: 15em;
+    width: 12em;
+    height: 12em;
     padding: 0;
     margin: 0;
 }
 
 .c1 {
     background: url(../img/back_mantel.jpg);
-    background-size: 320px;
+    background-size: 260px;
     border: 3px solid black;
-    width: 20em;
-    height: 20em;
+    width: 16em;
+    height: 16em;
 }
 
 .d1 {
@@ -52,12 +53,12 @@ body {
 
 .d2 {
     background: url(../img/back_mantel.jpg);
-    background-size: 240px;
-    width: 15em;
-    height: 15em;
+    background-size: 200px;
+    width: 12em;
+    height: 12em;
 }
 
-.first {
+.first, .second, .third {
     display: flex;
     justify-content: space-between;
 }
