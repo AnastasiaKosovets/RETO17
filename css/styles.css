@@ -3,13 +3,13 @@ body {
     margin: 3em;
 }
 
-.a, .c, .d, .e, .f, .g, .h {
+.a, .c, .d, .e, .g, .h {
     background-color: black;
     margin: 1em;
     
 }
 
-.a, .a1, .b1, .c, .d, .d1, .e, .f, .g, .h {
+.a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h {
     width: 16em;
     height: 16em;
 }
@@ -92,4 +92,17 @@ body {
     width: 16em;
     height: 16em;
     border: 3px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.g2 {
+    background: url(../img/dh_2.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    width: 16em;
+    height: 10em;
+    
+
 }
