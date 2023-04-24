@@ -3,13 +3,13 @@ body {
     margin: 3em;
 }
 
-.a, .c, .d, .e, .g, .h, .i {
+.a, .c, .d, .e, .g, .h, .i, .j, .k {
     background-color: black;
     margin: 1em;
     
 }
 
-.a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h, .i {
+.a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h, .i, .j, .k, .l1 {
     width: 16em;
     height: 16em;
 }
@@ -132,4 +132,24 @@ body {
     border: 3px solid black;
     background: linear-gradient(to right, rgb(210, 244, 118), rgb(84, 158, 51));
 
+}
+
+.j1 {
+    height: 16em;
+    width: 16em;
+    border: 3px solid black;
+    background: linear-gradient(rgb(250, 170, 170), rgb(164, 55, 25), rgb(197, 69, 34));
+}
+
+.k1 {
+    height: 16em;
+    width: 16em;
+    border: 3px solid black;
+    background: linear-gradient(rgb(212, 255, 126), rgb(31, 130, 67));
+}
+.l1 {
+    height: 16em;
+    width: 16em;
+    border: 3px solid black;
+    background: linear-gradient(transparent 5%, rgb(2, 80, 4));
 }
