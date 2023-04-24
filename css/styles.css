@@ -73,6 +73,7 @@ body {
 .f1 {
     border: 3px solid black;
     margin: 1em;
+    background-color: white;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -104,5 +105,23 @@ body {
     width: 16em;
     height: 10em;
     
+}
 
+.h1 {
+    background-color: white;
+    width: 16em;
+    height: 16em;
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    background: url(../img/dh_3.jpg);
+    background-size: 135px;
+    background-repeat: no-repeat;
+    width: 16em;
+    height: 16em;
+    margin-left: 4em;
 }
