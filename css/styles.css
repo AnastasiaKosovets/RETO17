@@ -4,9 +4,11 @@ body {
 }
 
 .a, .c, .d, .e, .g, .h, .i, .j, .k {
-    background-color: black;
+    background-color: black;   
+}
+
+.a, .b1, .c, .d, .f1, .e, .g, .h, .i, .j, .k {
     margin: 1em;
-    
 }
 
 .a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h, .i, .j, .k, .l1 {
@@ -22,11 +24,11 @@ body {
     background: url(../img/back_mantel.jpg);
 }
 
-.b1 {
-    margin: 1em;
+.b1, .d1, .f1, .g1, .h1 {
     align-items: center;
     display: flex;
     justify-content: center;
+
 }
 
 .b2, .d2, .f2 {
@@ -49,9 +51,6 @@ body {
 
 .d1 {
     background-color: white;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .d2 {
@@ -71,11 +70,7 @@ body {
 }
 
 .f1 {
-    margin: 1em;
     background-color: white;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .f2 {
@@ -89,9 +84,6 @@ body {
     background-color: white;
     width: 16em;
     height: 16em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .g2 {
@@ -107,9 +99,6 @@ body {
     background-color: white;
     width: 16em;
     height: 16em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .h2 {
