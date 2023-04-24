@@ -14,23 +14,28 @@ body {
     height: 16em;
 }
 
-.a1 {
-    background: url(../img/back_mantel.jpg);
+.a1, .b1, .c1, .d1, .e1, .f1, .g1, .h1, .i1, .j1, .k1, .l1 {
     border: 3px solid black;
 }
 
+.a1 {
+    background: url(../img/back_mantel.jpg);
+}
+
 .b1 {
-    border: 3px solid black;
     margin: 1em;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.b2 {
-    background: url(../img/back_mantel.jpg);
+.b2, .d2, .f2 {
     width: 12em;
     height: 12em;
+}
+
+.b2 {
+    background: url(../img/back_mantel.jpg);
     padding: 0;
     margin: 0;
 }
@@ -38,13 +43,11 @@ body {
 .c1 {
     background: url(../img/back_mantel.jpg);
     background-size: 260px;
-    border: 3px solid black;
     width: 16em;
     height: 16em;
 }
 
 .d1 {
-    border: 3px solid black;
     background-color: white;
     align-items: center;
     display: flex;
@@ -54,13 +57,10 @@ body {
 .d2 {
     background: url(../img/back_mantel.jpg);
     background-size: 200px;
-    width: 12em;
-    height: 12em;
 }
 
 .e1 {
     background: url(../img/dh.jpg);
-    border: 3px solid black;
     height: 16em;
     width: 16em;
 }
@@ -71,7 +71,6 @@ body {
 }
 
 .f1 {
-    border: 3px solid black;
     margin: 1em;
     background-color: white;
     align-items: center;
@@ -82,8 +81,6 @@ body {
 .f2 {
     background: url(../img/dh.jpg);
     background-size: 195px;
-    width: 12em;
-    height: 12em;
     padding: 0;
     margin: 0;
 }
@@ -92,7 +89,6 @@ body {
     background-color: white;
     width: 16em;
     height: 16em;
-    border: 3px solid black;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -111,7 +107,6 @@ body {
     background-color: white;
     width: 16em;
     height: 16em;
-    border: 3px solid black;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -129,7 +124,6 @@ body {
 .i1 {
     height: 16em;
     width: 16em;
-    border: 3px solid black;
     background: linear-gradient(to right, rgb(210, 244, 118), rgb(84, 158, 51));
 
 }
@@ -137,19 +131,17 @@ body {
 .j1 {
     height: 16em;
     width: 16em;
-    border: 3px solid black;
     background: linear-gradient(rgb(250, 170, 170), rgb(164, 55, 25), rgb(197, 69, 34));
 }
 
 .k1 {
     height: 16em;
     width: 16em;
-    border: 3px solid black;
     background: linear-gradient(rgb(212, 255, 126), rgb(31, 130, 67));
 }
+
 .l1 {
     height: 16em;
     width: 16em;
-    border: 3px solid black;
     background: linear-gradient(transparent 5%, rgb(2, 80, 4));
 }
