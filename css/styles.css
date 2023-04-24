@@ -3,13 +3,13 @@ body {
     margin: 3em;
 }
 
-.a, .c, .d, .e, .g, .h {
+.a, .c, .d, .e, .g, .h, .i {
     background-color: black;
     margin: 1em;
     
 }
 
-.a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h {
+.a, .a1, .b1, .c, .d, .d1, .e, .f1, .g, .h, .i {
     width: 16em;
     height: 16em;
 }
@@ -124,4 +124,12 @@ body {
     width: 16em;
     height: 16em;
     margin-left: 4em;
+}
+
+.i1 {
+    height: 16em;
+    width: 16em;
+    border: 3px solid black;
+    background: linear-gradient(to right, rgb(210, 244, 118), rgb(84, 158, 51));
+
 }
